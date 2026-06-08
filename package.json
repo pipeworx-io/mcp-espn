@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-espn",
+  "version": "0.1.0",
+  "description": "ESPN MCP — keyless multi-sport live scores, teams, and news via ESPN's public site API.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "espn"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-espn"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
