@@ -2,7 +2,7 @@
 
 ESPN MCP — keyless multi-sport live scores, teams, and news via ESPN's public site API.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1683+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1743+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -13,6 +13,7 @@ Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents 
 | `get_news` | Latest sports news headlines for a league: NFL/NBA/MLB/NHL/soccer/college articles with summaries and links. |
 | `get_standings` | League standings / table: win-loss records, win %, games behind (and points/draws for soccer), grouped by conference/division. PREFER for "NBA standings", "Premier League table", "NFL division standings", "who is leading <league>". |
 | `get_team_schedule` | A team's schedule — upcoming and recent games with dates, opponents, and (for finished games) scores and result. PREFER for "when do the Lakers play next", "<team>'s schedule", "<team> recent results". Get the numeric team_id from get_teams. |
+| `get_game_summary` | A completed or in-progress game's box score: per-player stats by team (e.g. goals/assists/shots for hockey, passing/rushing for football), scoring plays in order, and game leaders (top performer per stat category). PREFER for "box score for <game>", "<team> vs <team> player stats", "who scored in <game>". Get the numeric event_id from get_scoreboard or get_team_schedule. |
 
 ## Quick Start
 
@@ -58,7 +59,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1683+ data sources. The
+Both URLs reach the same gateway and the same 1743+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
