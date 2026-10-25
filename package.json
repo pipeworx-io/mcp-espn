@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-espn",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "ESPN MCP — keyless multi-sport live scores, teams, and news via ESPN's public site API.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-af80b76c5668e671c91f6348219fccbf277e090feda309f002109b8d18e58fa5",
-    "sourceCommit": "712a5e0171ea24483214329d0cd7efdfd9b80352"
+    "sourceHash": "v1-b41ab68f873cbfc0a5a2f78a4e6ee707309d387506b43d083d86fe1c5cab05c2",
+    "sourceCommit": "722087a9bda73f85942e8f6bbfd598544cb0d490"
   }
 }
